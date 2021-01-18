@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "속도보단 방향"
+title                    : "속도보단 방향을"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "WonSik36"
@@ -93,7 +93,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "WonSik36"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
   location         : "Somewhere"
@@ -129,7 +129,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/WonSik36"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
