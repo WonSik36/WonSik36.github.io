@@ -49,9 +49,26 @@ $ git commit -m "First posts"
 $ git push origin main
 ```
 
+* 페이스북 댓글 플러그인 더하기
+```
+# _config.yml
+comments:
+  provider               : "facebook"
+  facebook:
+    appid                : {YOUR_APP_ID}    # https://developers.facebook.com/apps/
+    num_posts            : 5
+    colorscheme          : "light"
+
+defaults:
+  ...
+      comments: true
+```
+
+로컬에서는 `JEKYLL_ENV=production` 이 설정되어 있어야한다.
+
 ---
 ## 참조
 
 [Jekyll 연동1](https://maejinkim.github.io/%EB%B8%94%EB%A1%9C%EA%B7%B8/%EB%B8%94%EB%A1%9C%EA%B7%B8/)  
 [Jekyll 연동2](https://medium.com/fabiancode/github-io-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-with-jekyll-a98c018249a9)  
-[페이스북 댓글 연동](https://blog.iolo.kr/posts/2018/06/01/fb-comments)
+[페이스북 댓글 연동](https://github.com/mmistakes/minimal-mistakes/issues/2527)
