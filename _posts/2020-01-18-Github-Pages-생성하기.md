@@ -15,21 +15,39 @@
   * ruby 최신 버전 다운로드
     ```
     $ rbenv install --list
-    $ rbenv install 2.4.4
+    $ rbenv install 2.7.2
     $ rbenv rehash
     ```
   * ruby 버전 변경
     ```
-    $ rbenv global 2.4.4
+    $ rbenv global 2.7.2
     
     $ export PATH="$HOME/.rbenv/bin:$PATH"
     $ eval "$(rbenv init -)"
     ```
   * 테마 다운로드
+    minimal-mistakes 테마 다운로드
+    ```
+    $ git clone https://github.com/mmistakes/minimal-mistakes.git
+    $ git remote remove origin
+    $ git remote add origin "본인 리포지터리 주소" 
+    ```
 
 * 깃허브 연동
   * _config.yml 설정
+  ```
+  # _config.yml
+  url : "https://wonsik36.github.io/" # 본인 블로그 주소
+  ```
 
+* 글 올리기
+```
+# _posts 폴더 생성
+$ vi ./_posts/2020-01-18-hello-world.md
+$ git add .
+$ git commit -m "First posts"
+$ git push origin main
+```
 
 ---
 ## 참조
