@@ -95,8 +95,8 @@ analytics:
 author:
   name             : "WonSik36"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "마이크로서비스 아키텍처와 컨테이너 기술에 관심이 많습니다."
-  location         : "NHN"
+  bio              : "신뢰를 판매하는 개발자 정원식입니다. 마이크로서비스 아키텍처와 컨테이너 기술에 관심이 많습니다."
+  location         : "NHN 사슴TF"
   email            :
   links:
     - label: "Email"
